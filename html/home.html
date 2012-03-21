@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<div class="center form-wrapper">
+		<form action="/customer" id="customer-details"  method="POST" class="center">
+			<input class="first" type="text" name="fname" placeholder="First name" validation="required name" />
+			<input class="last" type="text" name="lname" placeholder="Last name" validation="required name" />
+			<input class="first" type="text" name="company" placeholder="Company" validation="required name" />
+			<input class="last" type="text" name="email" placeholder="Email" validation="required email" />
+			<input class="first" type="text" name="phone" placeholder="Phone" validation="required phone" />
+			<input class="last" type="submit" value="Save" />
+		</form>
+	<div>
+{% endblock %}

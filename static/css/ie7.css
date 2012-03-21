@@ -1,0 +1,37 @@
+.banner-description p {
+	display: block;
+	width: 238px;
+}
+
+.banner .cta{
+	width: 130px;
+}
+
+span.more {
+	float: left;
+	margin-left: 15px;
+}
+
+.cta-share{
+	width: 215px;
+}
+
+.checkout-bar {
+	height: 108px;
+}
+
+.checkout-bottom .cta-text{
+	width: 120px;
+}
+
+.barometer .meter{
+	margin-right: 13px;
+}
+
+.barometer .meter, .barometer .progress{
+	overflow: hidden;
+}
+
+.required {
+font-weight: bold;
+}
