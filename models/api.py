@@ -34,6 +34,11 @@ class SFApi(object):
 		request = urllib2.Request(self.endpoint+"/sobjects/Lead", data=data, headers=headers)
 		try:
 			response = urllib2.urlopen(request).read()
+			response = json.loads(response)
+			if response['success'] is True:
+				return 201
+			else:
+				return response
 		except urllib2.HTTPError, e:
 			if e.code == 201:
 				return 201
