@@ -1,0 +1,7 @@
+The app is built on Google Appengine platform and is accessible on http://ztahomework.appspot.com/
+
+As per problem specifications, this code represents a web application fragment, which takes user input (first name, last name, company, email and phone number) and creates record in SalesForce Leads and MainChimp List.
+
+Both sevices expose REST APIs, which are used in this code. SalesForse also requires authentication, "OAuth 2.0 username & password" is a preffered flow here.
+
+Only one use case: enter data, press Save button.
