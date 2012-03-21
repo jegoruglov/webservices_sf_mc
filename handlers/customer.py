@@ -20,7 +20,7 @@ class CustomerHandler(BaseHandler):
             if mcresponse == 201 and sfresponse == 201:
                 self.response.out.write("<p>Data successfully sent</p>")
             else:
-                self.response.out.write("<p>Saving data failed</p>")
+                self.response.out.write("<p>Unexpected response</p>")
             self.response.out.write("<p>Mailchimp response: %s, Salesforce response: %s</p>"%(str(mcresponse),str(sfresponse)))
 
     def post(self):
