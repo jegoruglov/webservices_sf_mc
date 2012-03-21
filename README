@@ -5,3 +5,6 @@ As per problem specifications, this code represents a web application fragment, 
 Both sevices expose REST APIs, which are used in this code. SalesForse also requires authentication, "OAuth 2.0 username & password" is a preffered flow here.
 
 Only one use case: enter data, press Save button.
+
+Supported browsers: Google Chrome, Firefox, Opera
+(IE does not support input fields placeholders which are used in markup, so the semantics of the fields will be missing)
